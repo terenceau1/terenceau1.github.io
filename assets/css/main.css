@@ -2423,10 +2423,17 @@ input[type="search"] {
 	}
 }	
 
-.email_style{
-font-size:10pt;
-color:#fe721e;
-}
+.email_style a {
+	font-size:10pt;
+	color: #fe721e; /* match normal text color */
+	text-decoration: none;
+  }
+  
+  .email_style a:hover {
+	color: #ad3f00 !important; /* or keep same color if you don’t want it to change */
+	text-decoration: underline;
+  }
+
 
 .all_publications_list_dis{
 	display:block;

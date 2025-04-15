@@ -64,12 +64,14 @@
           <img src="images/avatar.jpeg" alt="My Photo" itemprop="image" />
       </div>
       <h1 id="logo" itemprop="name">Terence Au</h1>
-      <p class="email_style">terenceautingwai@gmail.com</p>
+      <p class="email_style">
+        <a href="mailto:terenceautingwai@gmail.com">terenceautingwai@gmail.com</a>
+      </p>
     </header>
 
     <nav id="nav">
       <ul>
-        <li><a href="#aboutme">About me</a></li>
+        <li><a href="#aboutme">About Me</a></li>
         <li><a href="#conference">Conferences and Invited Talks</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -170,16 +172,16 @@
           </div>
 
           
-          <p style=" margin-bottom: 0px;">
+          <p style=" margin-bottom: 5px;">
             <strong>Named Entity Recognition (NER)</strong> is a task in  <strong>Natural Language Processing (NLP)</strong>, where models find names in a sentence. 
-            In the example above, the system highlights what it finds in green. 
+            In the illustrative example above, the system highlights what it finds in green. 
           </p>
-          <p style=" margin-bottom: 0px;">
+          <p style=" margin-bottom: 5px;">
             However, it's not always accurate — sometimes it picks up the wrong words (<strong>red crosses <span style="color: red;">&#10060;</span> </strong>), and sometimes it misses the correct ones entirely (<strong>red circles <span style="color: red;">&#11093;</span></strong>).
             In everyday situations, the <span style="color: red;">&#10060;</span> are usually easy to review and identify, but the <span style="color: red;">&#11093;</span> can be a bigger problem, as these entities are completely omitted and you won't even notice them! (especially in areas like law or research)
           </p>
           <p style=" margin-bottom: 30px;">
-            To improve this, we introduce a <span style="font-size: 110%; font-weight: bold;">High Coverage</span> mode that aims to find as many important names as possible. In this mode, the extra names it successfully catches are shown in blue.  
+            To improve this, I introduced a <span style="font-size: 110%; font-weight: bold;">High Coverage</span> mode that aims to find as many important names as possible. In this mode, the extra names it successfully catches are shown in blue.  
           </p>
 
 
@@ -196,12 +198,13 @@
         
 
         
-        <p style=" margin-bottom: 0px;">
-          The "High Coverage" mode helps the system catch more of the important names it might otherwise miss. In our best model developed during the PhD, we achieved a 90% reduction in missed names <span style="color: red;">&#11093;</span>!
+        <p style=" margin-bottom: 10px;">
+          The "High Coverage" mode helps the system catch more of the important names it might otherwise miss. The best model developed during the PhD can achieve up to 90% reduction in missed names <span style="color: red;">&#11093;</span>. 
         </p>         
         
-        
-
+        <p style=" margin-bottom: 0px;">
+          (The model can also be adjusted in the other direction to create a <strong>"High Accuracy"</strong> mode, which reduces spurious predictions <span style="color: red;">&#10060;</span>)
+        </p>   
 
     
             <!-- Education Section -->
