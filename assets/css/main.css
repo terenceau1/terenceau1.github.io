@@ -2442,3 +2442,10 @@ input[type="search"] {
 .blue{
 color: #fe721e;
 }
+
+
+
+.linkedin-tooltip::before,
+.linkedin-tooltip::after {
+  margin-left: 25px;   /* tweak this value for more/less shift */
+}
