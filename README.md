@@ -17,5 +17,5 @@ website url: https://terenceau1.github.io/
 
 Remember to change the "last update" date when changes are made.
 
-Make the changes locally, then use gitkraken to stage, commit and push the changes to the global repository (github)
+
 
